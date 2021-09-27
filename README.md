@@ -1,20 +1,21 @@
 # Lecture-6-Slides-24--27
-//Odd or Even
-using namespace std;
-int main()
-{
-    int Number; 
-    cout << "Enter any number: \n" << endl;
-    cin >> Number; 
-    if (Number % 2 == 0) {
-        cout << Number << " is even ";
+
+    //Odd or Even
+    using namespace std;
+    int main()
+    {
+        int Number; 
+        cout << "Enter any number: \n" << endl;
+        cin >> Number; 
+        if (Number % 2 == 0) {
+            cout << Number << " is even ";
+        }
+        else {
+            cout << Number << " is odd " << endl;
+        }
+        cin.get();
+        return 0;
     }
-    else {
-        cout << Number << " is odd " << endl;
-    }
-    cin.get();
-    return 0;
-}
 
 // Number Checker
 using namespace std;
